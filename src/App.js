@@ -1,5 +1,5 @@
 import './App.css';
-import AnimeSlider from './AnimeSlider.js';
+import AnimeCollection from './AnimeCollection';
 import React, {useEffect, useState} from 'react';
 
 
@@ -101,7 +101,7 @@ function App() {
             </form>
         </div>
         <div className='slide-container'>
-            <AnimeSlider animeList={animeList} deleteAnime={deleteAnime} />
+        <AnimeCollection animeList={animeList} deleteAnime={deleteAnime} />
         </div>
     </div>
   );
